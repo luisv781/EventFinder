@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+
+    background-color: #444;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navigation Bar */
+
+nav {
+    display: flex;
+    position: sticky;
+    padding: 1em 2em;
+    
+    justify-content: space-between;
+    align-items: stretch;
+
+    background-color: #222;
+}
+
+nav .nav-heading h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+nav .nav-links .signup-button {
+    padding: 0.7em 1em;
+    border-radius: 1em;
+    
+    background-color: #8a2be2;
+    transition: 300ms all ease-in-out;
+}
+nav .nav-links .signup-button:hover {
+    background-color: #b66ef9;
+    color: #000;
+}
+
+/* Main Content */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content .main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30dvh;
+    padding: 5em;
+    text-align: center;
+
+    background-image: linear-gradient(135deg, #e66465, #9198e5);
+}
+
+.main-section h1 {
+    margin: 0;
+    font-size: 6em;
+    font-weight: 800;
+
+    filter: drop-shadow(0 0 16px #00000088);
+}
+.main-section h2 {
+    margin: 0;
+    font-size: 2.5em;
+
+    filter: drop-shadow(0 0 16px #00000088);
+}
+
+.main-content .events-section {
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    padding: 1em 2em;
+    min-height: 20dvh;
+
+    background-color: #333;
+}
+
+.event-card-container {
+    display: flex;
+    gap: 2em;
+}
+
+.event-card {
+    display: flex;
+    flex-direction: column;
+    width: 24em;
+    border-radius: 1em;
+    
+    background-color: #444;
+    filter: drop-shadow(0 0 8px #00000088);
+    transition: 200ms all ease-in-out;
+}
+.event-card img {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.event-card .card-caption {
+    padding: 1em;
+}
+.card-caption h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    padding: 1em;
+}
+footer h1 {
+    margin: 0;
+
+    font-size: 1.6em;
+}
+
+/* Other Elements */
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
