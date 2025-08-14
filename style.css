@@ -22,7 +22,9 @@ body {
     padding: 5em;
     text-align: center;
 
-    background-image: linear-gradient(135deg, #e66465, #9198e5);
+    background: linear-gradient(135deg, #ee6363, #9097ec);
+    background-size: 300% 300%;
+    animation: gradient-anim 25s ease infinite;
 }
 
 .main-section h1 {
@@ -94,4 +96,13 @@ footer h1 {
 a {
     text-decoration: none;
     color: #fff;
+}
+
+@keyframes gradient-anim {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
 }
