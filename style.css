@@ -1,44 +1,9 @@
 body {
     margin: 0;
 
-    background-color: #444;
+    background-color: #333;
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* Navigation Bar */
-
-nav {
-    display: flex;
-    position: sticky;
-    padding: 1em 2em;
-    
-    justify-content: space-between;
-    align-items: stretch;
-
-    background-color: #222;
-}
-
-nav .nav-heading h1 {
-    margin: 0;
-    font-size: 2em;
-}
-
-nav .nav-links {
-    display: flex;
-    align-items: center;
-    gap: 2em;
-}
-nav .nav-links .signup-button {
-    padding: 0.7em 1em;
-    border-radius: 1em;
-    
-    background-color: #8a2be2;
-    transition: 300ms all ease-in-out;
-}
-nav .nav-links .signup-button:hover {
-    background-color: #b66ef9;
-    color: #000;
 }
 
 /* Main Content */
